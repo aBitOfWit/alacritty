@@ -1,0 +1,29 @@
+[general]
+import = [ "~/.config/alacritty/themes/thelovelace.toml" ]
+
+[terminal]
+shell = { program = "/usr/bin/zsh"}
+
+
+[env]
+TERM = "alacritty"
+
+
+[window]
+dimensions = { columns = 120, lines = 30  }
+position = { x = 0, y = 120}
+padding = { x = 10, y = 10}
+decorations = "none"
+opacity = 0.8
+blur = true
+dynamic_title = true
+
+
+[font]
+size = 14
+normal = { family = "JetBrainsMono Nerd Font" }
+
+
+[cursor]
+style = { shape = "Underline", blinking = "Always" }
+unfocused_hollow = true
